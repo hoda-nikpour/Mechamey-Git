@@ -1,10 +1,5 @@
 
-
-
 import DetailedCard from '../cards/DetailedCard';
-
-
-
 
 const Modal = ({ expandedCard, handleLessClick }) => {
 

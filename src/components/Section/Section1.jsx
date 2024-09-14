@@ -1,6 +1,3 @@
-
-
-
 import React, { useEffect, useState } from 'react';
 
 const Section1 = () => {
@@ -11,7 +8,7 @@ const Section1 = () => {
       setTime(true);
       setTimeout(() => {
         setTime(false);
-        setTimeout(animate, 2000); // 3000ms delay after animation completes
+        setTimeout(animate, 2000); // 2000ms delay after animation completes
       }, 2700); // Duration of your animation
     };
 

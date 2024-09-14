@@ -11,12 +11,14 @@ export const sections = [
       title: 'Services We Offer',
       cards: [
         {
+          id: '1',
           text: '',
           image: 'https://i.postimg.cc/7hX3MzvM/4.jpg',
           direction: 'vertical',
           detail: 'Detail for service 1',
         },
         {
+          id: '2',
           text: '',
           image: 'https://i.postimg.cc/3wp2fV5w/5.jpg',
           direction: 'vertical',
@@ -29,18 +31,21 @@ export const sections = [
       title: 'Projects',
       cards: [
         {
+          id: '3',
           text: 'Lorem ipsum',
           image: 'https://i.postimg.cc/Hnt2ZKMM/2.jpg',
           direction: 'vertical',
           detail: 'Detail for project 1',
         },
         {
+          id: '4',
           text: 'Lorem ipsum',
           image: 'https://i.postimg.cc/TYC0nzfM/3.jpg',
           direction: 'vertical',
           detail: 'Detail for project 2',
         },
         {
+          id: '5',
           text: 'Lorem ipsum',
           image: 'https://i.postimg.cc/vBfX9DH3/1.jpg',
           direction: 'vertical',
@@ -53,12 +58,14 @@ export const sections = [
       title: 'Our Customers',
       cards: [
         {
+          id: '6',
           text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
           image: 'https://i.postimg.cc/3x97PwBd/scania-prev-ui.png',
           direction: 'horizontal',
           detail: 'Detail for customer 1',
         },
         {
+          id: '7',
           text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
           image: 'https://i.postimg.cc/KYzFFyqQ/volvo-prev-ui.png',
           direction: 'horizontal',

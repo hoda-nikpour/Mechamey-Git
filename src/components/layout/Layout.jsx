@@ -3,7 +3,9 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from '../common/Navbar';
 import Footer from '../common/Footer';
+import MobileSideBar from '../common/MobileSideBar';
 import Home from '../../pages/Home';
+
 
 
 
@@ -23,6 +25,7 @@ const Layout = () => {
           <Route path="/Contact" element={<Home />} />
         </Routes>
       </main>
+      <MobileSideBar/>
       <Footer/>
     </>
   );
